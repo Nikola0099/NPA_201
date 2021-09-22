@@ -4,6 +4,13 @@
 #include <string.h>
 #include <math.h>
 
+/*  PINOUT:
+ *  VCC -> 3.3V
+ *  GND -> GND
+ *  SLC -> B6
+ *  SDA -> B7
+ */
+
 I2C_HandleTypeDef hi2c1;
 uint16_t devAddress = 0x4E;  // Adresa uređaja
 uint16_t devAddressRead = 0x4E | 1;
